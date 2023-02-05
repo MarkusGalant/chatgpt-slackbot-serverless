@@ -1,5 +1,7 @@
 # ChatGPT Slack Bot ( Serverless AWS Lambda )
 
+This app uses the library at https://github.com/transitive-bullshit/chatgpt-api
+
 ## Setup
 
 Setup a Slack app by following the guide at https://slack.dev/bolt-js/tutorial/getting-started
@@ -71,3 +73,7 @@ You can send a direct message to the Slack Bot, also you can use `reset` message
 You can invite it to a channel and mention it @ChatGPT Bot <your question>
 
 ![](docs/mention.png)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
