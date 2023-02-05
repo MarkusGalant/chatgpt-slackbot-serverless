@@ -1,6 +1,6 @@
 {
   "name": "@markus-galant/chatgpt-slackbot",
-  "description": "ChatGPT Bot for Slack cd ..( Serverless AWS Lambda ).",
+  "description": "ChatGPT Slack Bot ( Serverless AWS Lambda ).",
   "version": "1.0.0",
   "author": "Markus Galant",
   "license": "MIT",

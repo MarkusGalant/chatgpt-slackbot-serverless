@@ -1,9 +1,8 @@
-# ChatGPT Bot for Slack ( Serverless AWS Lambda )
+# ChatGPT Slack Bot ( Serverless AWS Lambda )
 
 ## Setup
 
-### Setup 
-Setup a Slack app by following the guide at slack.dev/bolt-js/tutorial/getting-started
+Setup a Slack app by following the guide at https://slack.dev/bolt-js/tutorial/getting-started
 
 Set scopes to Bot Token Scopes in OAuth & Permission:
 
