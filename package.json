@@ -1,0 +1,26 @@
+{
+  "name": "@markus-galant/chatgpt-slackbot",
+  "description": "ChatGPT Bot for Slack cd ..( Serverless AWS Lambda ).",
+  "version": "1.0.0",
+  "author": "Markus Galant",
+  "license": "MIT",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "serverless offline start",
+    "serve": "ngrok http 3000",
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.2.0",
+    "chatgpt": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.110",
+    "ngrok": "^4.3.3",
+    "serverless": "^3.27.0",
+    "serverless-offline": "^12.0.4",
+    "serverless-plugin-typescript": "^2.1.4",
+    "typescript": "^4.9.5"
+  }
+}

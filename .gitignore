@@ -1,0 +1,25 @@
+# Serverless specific files and directories
+.serverless
+serverless.env.yml
+serverless.env.json
+serverless.env.yaml
+serverless.env.js
+
+# Serverless deployment artifacts
+.webpack
+.serverless_plugins
+.build
+
+# Log files
+*.log
+
+# NodeJS dependencies
+node_modules/
+
+# Serverless runtime cache
+.serverless_sdk
+
+# Local configuration
+.env
+
+.DS_Store
