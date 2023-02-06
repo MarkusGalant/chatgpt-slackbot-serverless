@@ -6,6 +6,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   timeout: 30
+  memorySize: 512
   environment:
     SLACK_SIGNING_SECRET: ${env:SLACK_SIGNING_SECRET}
     SLACK_BOT_TOKEN: ${env:SLACK_BOT_TOKEN}
