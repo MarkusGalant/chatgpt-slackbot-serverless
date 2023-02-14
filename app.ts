@@ -81,7 +81,7 @@ app.message(async ({ message, say }) => {
             limit: 2
         });
 
-        const previus = (messages || [])[1]?.metadata?.event_payload as any || {
+        const previous = (messages || [])[1]?.metadata?.event_payload as any || {
             parentMessageId: undefined,
             conversationId: undefined
         };
@@ -94,8 +94,8 @@ app.message(async ({ message, say }) => {
 
         try {
             const answer = await api.sendMessage(message.text, {
-                parentMessageId: previus.parentMessageId,
-                conversationId: previus.conversationId,
+                parentMessageId: previous.parentMessageId,
+                conversationId: previous.conversationId,
                 onProgress: async (answer) => {
                     // Real-time update
                     await updateMessage({
